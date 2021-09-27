@@ -20,150 +20,212 @@
   <body>
     <!-- header -->
     <header class="header">
-      <button class="secongary-btn btn" type="button">Sign Up</button>
-      <button class="primary-btn btn" type="button">Sign In</button>
+      <div class="container header-container">
+        <img
+          class="header-logo"
+          src="./images/logo.jpg"
+          alt="Logo"
+          width="40"
+          height="40"
+        />
+        <div class="header-right-container">
+          <svg class="header-icon" width="20" height="20">
+            <use href="./images/icons.svg#icon-shopping-cart"></use>
+          </svg>
+          <svg class="header-icon" width="20" height="20">
+            <use href="./images/icons.svg#icon-search"></use>
+          </svg>
+          <button class="secongary-btn btn" type="button">Sign Up</button>
+          <button class="primary-btn btn" type="button">Sign In</button>
+        </div>
+      </div>
     </header>
     <!-- main -->
     <main>
       <!-- hero -->
       <section class="hero">
-        <img
-          src="./images/pexels-cottonbro.jpg"
-          alt="man takes care of flowers"
-          width="608"
-          height="740"
-        />
-        <h1 class="hero-title">Kembang Flower Mantap</h1>
-        <p class="hero-text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s,
-        </p>
+        <div class="hero-container">
+          <img
+            src="./images/pexels-cottonbro.jpg"
+            alt="man takes care of flowers"
+            width="608"
+            height="740"
+          />
+          <div class="hero-right">
+            <h1 class="hero-title">Kembang Flower Mantap</h1>
+            <p class="hero-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s
+            </p>
+          </div>
+        </div>
+        <div></div>
       </section>
       <!-- advantages -->
       <section class="advantages">
-        <h2 hidden>Advantages</h2>
-        <ul class="advantages-list list">
-          <li class="advantages-item">
-            <h3 class="advantages-title">Fast Delivery</h3>
-            <p class="advantages-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard
-            </p>
-          </li>
-          <li class="advantages-item">
-            <h3 class="advantages-title">Great Customer Service</h3>
-            <p class="advantages-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard
-            </p>
-          </li>
-          <li class="advantages-item">
-            <h3 class="advantages-title">Original Plants</h3>
-            <p class="advantages-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard
-            </p>
-          </li>
-          <li class="advantages-item">
-            <h3 class="advantages-title">Affordable Price</h3>
-            <p class="advantages-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 hidden>Advantages</h2>
+          <ul class="advantages-list list">
+            <li class="advantages-item">
+              <div class="advantages-icons-box">
+                <svg class="advantages-icon" width="48" height="48">
+                  <use href="./images/icons.svg#icon-car"></use>
+                </svg>
+                <h3 class="advantages-title">Fast <br />Delivery</h3>
+              </div>
+              <p class="advantages-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard
+              </p>
+            </li>
+            <li class="advantages-item">
+              <div class="advantages-icons-box">
+                <svg class="advantages-icon" width="48" height="48">
+                  <use href="./images/icons.svg#icon-headphones"></use>
+                </svg>
+                <h3 class="advantages-title">Great Customer Service</h3>
+              </div>
+              <p class="advantages-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard
+              </p>
+            </li>
+            <li class="advantages-item">
+              <div class="advantages-icons-box">
+                <svg class="advantages-icon" width="48" height="48">
+                  <use href="./images/icons.svg#icon-plant"></use>
+                </svg>
+                <h3 class="advantages-title">Original <br />Plants</h3>
+              </div>
+              <p class="advantages-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard
+              </p>
+            </li>
+            <li class="advantages-item">
+              <div class="advantages-icons-box">
+                <svg class="advantages-icon" width="48" height="48">
+                  <use href="./images/icons.svg#icon-dollar-symbol"></use>
+                </svg>
+                <h3 class="advantages-title">Affordable Price</h3>
+              </div>
+              <p class="advantages-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- featured -->
       <section class="featured">
-        <h2 class="featured-title">Featured Plants</h2>
-        <ul class="featured-list list">
-          <li class="featured-item">
-            <img
-              src="./images/mask-group-1.jpg"
-              alt="plant"
-              width="217"
-              height="217"
-            />
-            <h3 class="featured-subtitle">Kaktus Plants</h3>
-            <p class="featured-text">IDR 85.000</p>
-          </li>
-          <li class="featured-item">
-            <img
-              src="./images/mask-group-2.jpg"
-              alt="plant"
-              width="217"
-              height="217"
-            />
-            <h3 class="featured-subtitle">Landak Plants</h3>
-            <p class="featured-text">IDR 105.000</p>
-          </li>
-          <li class="featured-item">
-            <img
-              src="./images/mask-group-3.jpg"
-              alt="plant"
-              width="217"
-              height="217"
-            />
-            <h3 class="featured-subtitle">Kecubung Plants</h3>
-            <p class="featured-text">IDR 85.000</p>
-          </li>
-          <li class="featured-item">
-            <img
-              src="./images/mask-group-4.jpg"
-              alt="plant"
-              width="217"
-              height="217"
-            />
-            <h3 class="featured-subtitle">Kecubung Plants</h3>
-            <p class="featured-text">IDR 85.000</p>
-          </li>
-          <li class="featured-item">
-            <img
-              src="./images/mask-group-5.jpg"
-              alt="plant"
-              width="217"
-              height="217"
-            />
-            <h3 class="featured-subtitle">Kecubung Plants</h3>
-            <p class="featured-text">IDR 85.000</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="featured-title">Featured Plants</h2>
+          <ul class="featured-list list">
+            <li class="featured-item">
+              <img
+                class="featured-image"
+                src="./images/mask-group-1.jpg"
+                alt="plant"
+                width="217"
+                height="217"
+              />
+              <h3 class="featured-subtitle">Kaktus Plants</h3>
+              <p class="featured-text">8.5 $</p>
+            </li>
+            <li class="featured-item">
+              <img
+                class="featured-image"
+                src="./images/mask-group-2.jpg"
+                alt="plant"
+                width="217"
+                height="217"
+              />
+              <h3 class="featured-subtitle">Landak Plants</h3>
+              <p class="featured-text">10.5 $</p>
+            </li>
+            <li class="featured-item">
+              <img
+                class="featured-image"
+                src="./images/mask-group-3.jpg"
+                alt="plant"
+                width="217"
+                height="217"
+              />
+              <h3 class="featured-subtitle">Kecubung Plants</h3>
+              <p class="featured-text">8.5 $</p>
+            </li>
+            <li class="featured-item">
+              <img
+                class="featured-image"
+                src="./images/mask-group-4.jpg"
+                alt="plant"
+                width="217"
+                height="217"
+              />
+              <h3 class="featured-subtitle">Kecubung Plants</h3>
+              <p class="featured-text">8.5 $</p>
+            </li>
+            <li class="featured-item">
+              <img
+                class="featured-image"
+                src="./images/mask-group-5.jpg"
+                alt="plant"
+                width="217"
+                height="217"
+              />
+              <h3 class="featured-subtitle">Kecubung Plants</h3>
+              <p class="featured-text">8.5 $</p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- buy -->
       <section class="buy">
-        <h2 class="buy-title">Buy more plants, it helps you to be relaxed</h2>
-        <p class="buy-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida
-          gravida aliquam. Pellentesque et lobortis nisl. Sed et mauris justo.
-          Nulla eu enim non mauris maximus dignissim. Maecenas vitae eros
-          sapien. Quisque pellentesque tempus dignissim.
-        </p>
-        <img
-          src="./images/mask-group-6.jpg"
-          alt="plant"
-          width="568"
-          height="250"
-        />
-        <img
-          src="./images/mask-group-7.jpg"
-          alt="plant"
-          width="513"
-          height="610"
-        />
+        <div class="container buy-container">
+          <div class="buy-left">
+            <h2 class="buy-title">
+              Buy more plants, it helps you to be relaxed
+            </h2>
+            <p class="buy-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et
+              mauris justo. Nulla eu enim non mauris maximus dignissim. Maecenas
+              vitae eros sapien. Quisque pellentesque tempus dignissim.
+            </p>
+
+            <img
+              src="./images/mask-group-6.jpg"
+              alt="plant"
+              width="568"
+              height="250"
+            />
+          </div>
+          <img
+            src="./images/mask-group-7.jpg"
+            alt="plant"
+            width="513"
+            height="610"
+          />
+        </div>
       </section>
       <!-- favourites -->
       <section class="favourites">
-        <h2 class="favourites-title">
-          Get your favourites plant on our shop now
-        </h2>
-        <a class="favourites-btn btn link" href="">Visit Shop</a>
-        <img
-          src="./images/mask-group-8.jpg"
-          alt="plant"
-          width="480"
-          height="360"
-        />
+        <div class="container favourites-container">
+          <div class="favourites-left">
+            <h2 class="favourites-title">
+              Get your favourites plant on our shop now
+            </h2>
+            <a class="favourites-btn btn link" href="">Visit Shop</a>
+          </div>
+          <img
+            src="./images/plant-right.jpg"
+            alt="plant"
+            width="480"
+            height="360"
+          />
+        </div>
       </section>
     </main>
     <!-- footer -->
