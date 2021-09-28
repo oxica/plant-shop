@@ -86,14 +86,14 @@ body {
   margin-left: 8px;
 
   color: var(--pramary-btn-color);
-  background-color: rgb(193, 214, 193);
+  background-color: rgb(237, 241, 237);
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
 .secongary-btn:hover,
 .secongary-btn:focus {
-  background-color: var(--secondary-btn-color);
+  background-color: rgb(198, 218, 198);
   color: var(--pramary-btn-color);
   border: 1px solid var(--pramary-btn-color);
 }
@@ -107,7 +107,7 @@ body {
 
 .primary-btn:hover,
 .primary-btn:focus {
-  background-color: var(--secondary-btn-color);
+  background-color: rgb(179, 209, 179);
   color: var(--pramary-btn-color);
   border: 1px solid var(--pramary-btn-color);
 }
