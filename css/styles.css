@@ -31,7 +31,7 @@ img {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #fff;
+  background-color: #ffffff;
   color: var(--pramary-text-color);
 }
 
@@ -86,14 +86,14 @@ body {
   margin-left: 8px;
 
   color: var(--pramary-btn-color);
-  background-color: var(--secondary-btn-color);
+  background-color: rgb(193, 214, 193);
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
 .secongary-btn:hover,
 .secongary-btn:focus {
-  /* background-color: var(--pramary-btn-color); */
+  background-color: var(--secondary-btn-color);
   color: var(--pramary-btn-color);
   border: 1px solid var(--pramary-btn-color);
 }
@@ -143,6 +143,92 @@ body {
 .hero-text {
   font-size: 18px;
   line-height: 1.78;
+}
+
+.hero-btn {
+  display: flex;
+  margin-top: 110px;
+}
+
+.hero-previous {
+  width: 320px;
+  padding: 39px 49px;
+  background-color: rgb(237, 241, 237);
+}
+
+.hero-previous:hover,
+.hero-previous:focus {
+  background-color: rgb(161, 189, 161);
+}
+
+.hero-previous-name {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.21;
+
+  color: #333333;
+}
+
+.hero-previous-name::before {
+  content: url("../images/left-outline.png");
+  width: 32px;
+  height: 32px;
+}
+
+.hero-previous-text {
+  width: 208px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.22;
+
+  color: #156963;
+}
+
+.hero-next {
+  width: 320px;
+  padding: 39px 49px;
+  background-color: #156963;
+}
+
+.hero-next:hover,
+.hero-next:focus {
+  background-color: rgb(120, 167, 120);
+}
+
+.hero-next-name {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.21;
+
+  color: rgba(242, 242, 242, 1);
+}
+
+.hero-next-name::after {
+  content: url("../images/right-outline.png");
+  width: 32px;
+  height: 32px;
+}
+
+.hero-next-text {
+  width: 208px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.22;
+  width: 225px;
+
+  color: #ffffff;
 }
 
 /* ------------------ADVANTAGES------------------ */
@@ -294,7 +380,7 @@ body {
 
 .favourites-btn:hover,
 .favourites:focus {
-  background-color: var(--secondary-btn-color);
+  background-color: rgb(193, 214, 193);
   color: var(--pramary-btn-color);
   border: 1px solid var(--pramary-btn-color);
 }
@@ -408,7 +494,7 @@ body {
 
 .footer-btn:hover,
 .footer-btn:focus {
-  background-color: var(--secondary-btn-color);
-  color: var(--pramary-btn-color);
+  background-color: rgb(220, 231, 220);
+  color: #000000;
   border: 1px solid var(--pramary-btn-color);
 }
