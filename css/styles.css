@@ -114,6 +114,10 @@ body {
 
 /* -----------------HERO------------------ */
 
+.hero {
+  padding-bottom: 47px;
+}
+
 .hero-container {
   display: flex;
   justify-content: center;
@@ -144,8 +148,8 @@ body {
 /* ------------------ADVANTAGES------------------ */
 
 .advantages {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 47px;
+  padding-bottom: 47px;
 }
 
 .advantages-list {
@@ -186,6 +190,11 @@ body {
 }
 
 /* --------------------FEATURED--------------------- */
+.featured {
+  padding-top: 47px;
+  padding-bottom: 51px;
+}
+
 .featured-title {
   font-weight: 500;
   font-size: 20px;
@@ -229,7 +238,7 @@ body {
 /* --------------------BUY------------------------ */
 
 .buy {
-  padding-top: 102px;
+  padding-top: 51px;
   padding-bottom: 102px;
 }
 
@@ -291,6 +300,25 @@ body {
 }
 
 /* --------------------FOOTER---------------------- */
+
+.container-footer {
+  display: flex;
+  padding: 60px 167px 71px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.footer-left {
+  width: 282px;
+}
+/* .container-footer:not(:first-child) {
+  margin-right: 80px;
+} */
+
+.footer-list {
+  width: 95px;
+}
+
 .footer-logo {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -300,6 +328,7 @@ body {
   text-transform: uppercase;
 
   color: var(--accent-color);
+  margin-bottom: 24px;
 }
 
 .footer-text-after-logo {
@@ -309,6 +338,7 @@ body {
   line-height: 1.19;
 
   color: var(--gray1);
+  margin-top: 24px;
 }
 
 .footer-address {
@@ -321,6 +351,10 @@ body {
   color: var(--searc-text-color);
 }
 
+.footer-address-text {
+  margin-top: 10px;
+}
+
 .footer-title {
   font-family: "Work Sans", sans-serif;
   font-weight: 500;
@@ -328,14 +362,20 @@ body {
   line-height: 1;
 
   color: var(--secondary-text-color);
+  margin-bottom: 20px;
 }
 
 .footer-link {
+  display: block;
   font-family: "Work Sans", sans-serif;
   font-size: 14px;
   line-height: 1.14;
 
   color: var(--secondary-text-color);
+}
+
+.footer-link:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .footer-subscribe {
